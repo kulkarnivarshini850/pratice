@@ -1,0 +1,56 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Login Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        .login-box {
+            background-color: white;
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-box">
+        <h2>User Login</h2>
+
+        <form>
+            <input type="text" placeholder="Enter Username" required>
+            <br>
+
+            <input type="password" placeholder="Enter Password" required>
+            <br>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+</body>
+</html>
+```
